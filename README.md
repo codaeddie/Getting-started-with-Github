@@ -3,7 +3,7 @@
 
 ## Table of contents
 * [Using Ubuntu](#setup)
-* [Links for Help](#setup)
+* [Links for Help](https://github.com/codaeddie/Getting-started-with-Github/blob/main/README.md#links-for-help)
 * * [Setup](#setup)
 * * [Setup](#setup)
 
