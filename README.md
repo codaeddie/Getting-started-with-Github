@@ -2,7 +2,7 @@
 
 
 ## Table of contents
-* [Using Ubuntu](#setup)
+* [Using Ubuntu](https://github.com/codaeddie/Getting-started-with-Github/blob/main/README.md#using-ubuntu)
 * [Links for Help](https://github.com/codaeddie/Getting-started-with-Github/blob/main/README.md#links-for-help)
 * * [Setup](#setup)
 * * [Setup](#setup)
