@@ -10,9 +10,14 @@
 ## Using Ubuntu
 ### Lets run through some commands and intro to github through command line 
 
+_Remember_ if you are having any troubles, a good starting point will always be using the ```--help``` command after your argument
+
 Getting started with this project:
 ```
+git branch --help
 git status
+git branch
+
 git add
 git commit
 ```
