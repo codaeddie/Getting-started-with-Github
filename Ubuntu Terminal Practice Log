@@ -1,11 +1,11 @@
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git branch
+eddie@eddie-pcmasterrace:~$ git branch
 * main
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git branch --help
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git branch -c ModRecordRebuild
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git branch
+eddie@eddie-pcmasterrace:~$ git branch --help
+eddie@eddie-pcmasterrace:~$ git branch -c ModRecordRebuild
+eddie@eddie-pcmasterrace:~$ git branch
   ModRecordRebuild
 * main
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git checkout ModRecordRebuild
+eddie@eddie-pcmasterrace:~$ git checkout ModRecordRebuild
 A       .gitignore
 M       CMakeLists.txt
 D       ModRecordAux.cpp
@@ -23,8 +23,8 @@ D       splitString.h
 Switched to branch 'ModRecordRebuild'
 Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
   (use "git pull" to update your local branch)
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git branch --help
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git status
+eddie@eddie-pcmasterrace:~$ git branch --help
+eddie@eddie-pcmasterrace:~$ git status
 On branch ModRecordRebuild
 Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
   (use "git pull" to update your local branch)
@@ -56,11 +56,11 @@ Untracked files:
   (use "git add <file>..." to include in what will be committed)
         .idea/
 
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git branch --help
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$  git commit --help
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git add --help
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git add CMakeLists.txt
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git status
+eddie@eddie-pcmasterrace:~$ git branch --help
+eddie@eddie-pcmasterrace:~$  git commit --help
+eddie@eddie-pcmasterrace:~$ git add --help
+eddie@eddie-pcmasterrace:~$ git add CMakeLists.txt
+eddie@eddie-pcmasterrace:~$ git status
 On branch ModRecordRebuild
 Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
   (use "git pull" to update your local branch)
@@ -92,11 +92,11 @@ Untracked files:
   (use "git add <file>..." to include in what will be committed)
         .idea/
 
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git add ModificationRecord.cpp
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git add ModificationRecord.h
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git add generateReferenceRecord.cpp
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git add main.cpp
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git status
+eddie@eddie-pcmasterrace:~$ git add ModificationRecord.cpp
+eddie@eddie-pcmasterrace:~$ git add ModificationRecord.h
+eddie@eddie-pcmasterrace:~$ git add generateReferenceRecord.cpp
+eddie@eddie-pcmasterrace:~$ git add main.cpp
+eddie@eddie-pcmasterrace:~$ git status
 On branch ModRecordRebuild
 Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
   (use "git pull" to update your local branch)
@@ -122,7 +122,7 @@ Untracked files:
   (use "git add <file>..." to include in what will be committed)
         .idea/
 
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git commit -m 'Updating & debuggging ModRecord'
+eddie@eddie-pcmasterrace:~$ git commit -m 'Updating & debuggging ModRecord'
 [ModRecordRebuild 26388ed] Updating & debuggging ModRecord
  14 files changed, 184 insertions(+), 274 deletions(-)
  create mode 100644 .gitignore
@@ -137,12 +137,12 @@ eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git co
  delete mode 100644 modRecordFormat4.h
  delete mode 100644 splitString.cpp
  delete mode 100644 splitString.h
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git staus
+eddie@eddie-pcmasterrace:~$ git staus
 git: 'staus' is not a git command. See 'git --help'.
 
 The most similar command is
         status
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git status
+eddie@eddie-pcmasterrace:~$ git status
 On branch ModRecordRebuild
 Your branch and 'origin/main' have diverged,
 and have 1 and 1 different commits each, respectively.
@@ -153,18 +153,18 @@ Untracked files:
         .idea/
 
 nothing added to commit but untracked files present (use "git add" to track)
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git pull --rebase
+eddie@eddie-pcmasterrace:~$ git pull --rebase
 Username for 'https://github.com': eddiesdsu
 Password for 'https://eddiesdsu@github.com': 
 remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
 remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
 fatal: Authentication failed for 'https://github.com/chavester/Disassembler-For-SIC-XE-Computer.git/'
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git pull --rebase
+eddie@eddie-pcmasterrace:~$ git pull --rebase
 Username for 'https://github.com': eddiesdsu
 Password for 'https://eddiesdsu@github.com': 
 First, rewinding head to replay your work on top of it...
 Applying: Updating & debuggging ModRecord
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git status
+eddie@eddie-pcmasterrace:~$ git status
 On branch ModRecordRebuild
 Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
@@ -174,10 +174,10 @@ Untracked files:
         .idea/
 
 nothing added to commit but untracked files present (use "git add" to track)
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git branch
+eddie@eddie-pcmasterrace:~$ git branch
 * ModRecordRebuild
   main
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git push
+eddie@eddie-pcmasterrace:~$ git push
 fatal: The upstream branch of your current branch does not match
 the name of your current branch.  To push to the upstream branch
 on the remote, use
@@ -189,11 +189,11 @@ To push to the branch of the same name on the remote, use
     git push origin HEAD
 
 To choose either option permanently, see push.default in 'git help config'.
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ ^C
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git branch
+eddie@eddie-pcmasterrace:~$ ^C
+eddie@eddie-pcmasterrace:~$ git branch
 * ModRecordRebuild
   main
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git branch ModRecordRebuild -u origin/ModRecordRebuild
+eddie@eddie-pcmasterrace:~$ git branch ModRecordRebuild -u origin/ModRecordRebuild
 error: the requested upstream branch 'origin/ModRecordRebuild' does not exist
 hint: 
 hint: If you are planning on basing your work on an upstream
@@ -203,13 +203,13 @@ hint:
 hint: If you are planning to push out a new local branch that
 hint: will track its remote counterpart, you may want to use
 hint: "git push -u" to set the upstream config as you push.
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git push origin HEAD:ModRecordRebuild
+eddie@eddie-pcmasterrace:~$ git push origin HEAD:ModRecordRebuild
 Username for 'https://github.com': eddiesdsu
 Password for 'https://eddiesdsu@github.com': 
 remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
 remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
 fatal: Authentication failed for 'https://github.com/chavester/Disassembler-For-SIC-XE-Computer.git/'
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git push origin HEAD:ModRecordRebuild
+eddie@eddie-pcmasterrace:~$ git push origin HEAD:ModRecordRebuild
 Username for 'https://github.com': eddiesdsu
 Password for 'https://eddiesdsu@github.com': 
 Enumerating objects: 12, done.
@@ -225,7 +225,7 @@ remote:      https://github.com/chavester/Disassembler-For-SIC-XE-Computer/pull/
 remote: 
 To https://github.com/chavester/Disassembler-For-SIC-XE-Computer.git
  * [new branch]      HEAD -> ModRecordRebuild
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ git status
+eddie@eddie-pcmasterrace:~$ git status
 On branch ModRecordRebuild
 Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
@@ -235,6 +235,6 @@ Untracked files:
         .idea/
 
 nothing added to commit but untracked files present (use "git add" to track)
-eddie@eddie-pcmasterrace:~/workplace/a2/Disassembler-For-SIC-XE-Computer$ 
+eddie@eddie-pcmasterrace:~$ 
 
 
