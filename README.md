@@ -1,4 +1,4 @@
-# Welcome to my GitHub Page
+# Intro to GitHub + Ubuntu
 
 
 ## Table of contents
