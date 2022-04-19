@@ -18,7 +18,6 @@ git commit
 
 - [x] Create Repo 
 - [x] Push Code from Local Machine into Repo
-- [ ] https://github.com/codaeddie/codaeddie.github.io/edit/main/README.md
 - [ ] Add delight to the experience when all tasks are complete :tada:
 
 
