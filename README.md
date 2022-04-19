@@ -14,10 +14,15 @@ _Remember_ if you are having any troubles, a good starting point will always be 
 
 Getting started with this project:
 ```
+git branch
+git push
 git branch --help
 git status
 git branch
-
+git checkout
+git commit -m 'Updating & debuggging ThisClass'
+git push origin HEAD:ThisClass
+git pull --rebase
 git add
 git commit
 ```
