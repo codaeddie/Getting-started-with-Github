@@ -3,6 +3,7 @@
 
 ## Table of contents
 * [Using Ubuntu](#setup)
+* [Links for Help](#setup)
 * * [Setup](#setup)
 * * [Setup](#setup)
 
@@ -22,6 +23,13 @@ git commit
 
 
 ![alt text](https://github.com/codaeddie/Getting-started-with-Github/blob/9873b1b0c2fcc367419f8c501a19a2ddec5d5c7f/images/wu.png "Protect Ya Neck")
+
+## Links for Help
+
+#### If you want to learn about Github Keyboard short-cuts, follow this link:
+- https://docs.github.com/en/get-started/using-github/keyboard-shortcuts
+#### If you want to learn about Github basic formatting, follow this link:
+- https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 
 ```
